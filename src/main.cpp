@@ -11,16 +11,17 @@ void setup() {
       float temp = value.toFloat();
       // Serial.println(temp);
       GRAPHIC::temp(temp);
-    }else
-    if(key == "MOTOR_SPEED"){
-      // int speed = value.toInt();
-      // GRAPHIC::speed(speed);
-      // IOT::speed(speed);
-    }else
-    if(key == "UNO_BTN"){
-      bool uno_btn_state = value.toInt();
-      GRAPHIC::sw_motor(uno_btn_state);
     }
+    // else
+    // if(key == "MOTOR_SPEED55"){
+    //   // int speed = value.toInt();
+    //   // GRAPHIC::speed(speed);
+    //   // IOT::speed(speed);
+    // }else
+    // if(key == "UNO_BTN"){
+    //   bool uno_btn_state = value.toInt();
+    //   GRAPHIC::sw_motor(uno_btn_state);
+    // }
   });
 
   GRAPHIC::design();
